@@ -30,13 +30,13 @@
 </p>
 
 ### Preview in Netlify
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ae38de60-4034-437a-b225-ab24415bb593/deploy-status)](https://app.netlify.com/sites/priceless-cray-9d83d4/deploys)
 
 ### Preview in GitHub Pages
 [View Latest Release](https://bacon-delight.github.io/document-generator-ri-ui/)
 
 ## Dependencies
-
+[![Requirements Status](https://requires.io/github/bacon-delight/document-generator-ri-ui/requirements.svg?branch=master)](https://requires.io/github/bacon-delight/document-generator-ri-ui/requirements/?branch=master)
 
 * [Node](https://nodejs.org/en/)
 * [Yarn](https://yarnpkg.com/en/) (Optional, but recommended)
