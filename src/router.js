@@ -29,8 +29,7 @@ export default new Router({
 				{
 					path: 'technicalDetails',
 					component: () => import('./components/sections/technicalDetails/TechnicalDetails.vue'),
-				}
-				,
+				},
 				{
 					path: 'connectivityDetails',
 					component: () => import('./components/sections/connectivityDetails/ConnectivityDetails.vue'),

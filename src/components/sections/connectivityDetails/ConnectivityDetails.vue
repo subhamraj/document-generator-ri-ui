@@ -16,7 +16,7 @@
 			return {
 				headers: [
 					{text: 'Type', value: 'connectivityType', selectType: true, selectOptions: ['HL7', 'Modality', 'Server', 'VIP']},
-					{text: 'Server Type', value: 'serverType', selectType: true, selectOptions: ['Test', 'Production', 'PICS', 'BCS']},
+					{text: 'Server Type', value: 'serverType', selectType: true, selectOptions: ['Test', 'Production', 'PICS']},
 					{text: 'System', value: 'connectivitySystem', textField: true},
 					{text: 'Interface Type', value: 'interfaceType', textField: true},
 					{text: 'Message Event', value: 'messageEvent', textField: true},
