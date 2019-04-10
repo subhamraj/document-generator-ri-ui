@@ -51,6 +51,36 @@ export default new Router({
 							component: () => import('./components/sections/mappings/adt/Adt.vue'),
 						},
 					]
+				},
+				{
+					path: 'testPlan',
+					component: () => import('./components/sections/unitTestPlan/UnitTestPlan.vue'),
+					children: [
+						{
+							path: 'adt',
+							component: () => import('./components/sections/unitTestPlan/adt/Adt.vue'),
+						},
+						{
+							path: 'orderEntry',
+							component: () => import('./components/sections/unitTestPlan/orderEntry/OrderEntry.vue'),
+						},
+						{
+							path: 'dmwl',
+							component: () => import('./components/sections/unitTestPlan/dmwl/Dmwl.vue'),
+						},
+						{
+							path: 'dicom',
+							component: () => import('./components/sections/unitTestPlan/dicom/Dicom.vue'),
+						},
+						{
+							path: 'autoCreate',
+							component: () => import('./components/sections/unitTestPlan/autoCreate/AutoCreate.vue'),
+						},
+						{
+							path: 'validation',
+							component: () => import('./components/sections/unitTestPlan/validation/Validation.vue'),
+						},
+					]
 				}
 			]
 		}

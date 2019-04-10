@@ -101,6 +101,11 @@
 								icon: 'pin_drop',
 								route: '/dashboard/mappings'
 							},
+							{
+								name: 'Unit Test Plan',
+								icon: 'check_circle_outline',
+								route: '/dashboard/testPlan'
+							},
 						]
 					},
 					{
