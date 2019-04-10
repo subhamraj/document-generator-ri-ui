@@ -86,6 +86,21 @@
 								icon: 'wifi',
 								route: '/dashboard/connectivityDetails'
 							},
+							{
+								name: 'Sample Messages',
+								icon: 'chat_bubble_outline',
+								route: '/dashboard/sampleMessages'
+							},
+							{
+								name: 'Issue List',
+								icon: 'sync_problem',
+								route: '/dashboard/issueList'
+							},
+							{
+								name: 'Mappings',
+								icon: 'pin_drop',
+								route: '/dashboard/mappings'
+							},
 						]
 					},
 					{

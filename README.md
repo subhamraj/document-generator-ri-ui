@@ -43,12 +43,9 @@
 * [Vue](https://vuejs.org/)
 * [Vuex](https://vuex.vuejs.org/)
 * [Vuetify](https://vuetifyjs.com/en/)
-* [Vuetify Upload Button](https://github.com/DoritoBandito/vuetify-upload-button)
-* [FS2](https://www.npmjs.com/package/fs2)
 * [GraphQL](https://graphql.org/)
 * [date-fns](https://date-fns.org/)
 * [Lodash](https://lodash.com/)
-* [Papaparse](https://www.papaparse.com/)
 * [Apollo Client](https://vue-apollo.netlify.com/)
 
 Recommended for Windows Platform: [Download CMDER](https://cmder.net/)

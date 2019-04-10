@@ -29,25 +29,13 @@
 
 							<!-- Text Field -->
 							<v-text-field v-if="header.textField" hide-details v-model="itemData[header.value]" :label="header.text"></v-text-field>
-							
+
 							<!-- Textarea -->
 							<v-textarea v-if="header.textArea" hide-details v-model="itemData[header.value]" :label="header.text"></v-textarea>
-							
-						</v-flex>
-					</v-layout>
 
-					<!-- For New Items -->
-					<v-layout wrap v-else>
-						<v-flex xs12 class="my-1" v-for="(header, index) in headers" :key="index">
-
-							<!-- Dropdown -->
-							<v-select v-if="header.selectType" menu-props="offsetY" :items="header.selectOptions" hide-details v-model="newItem[header.value]" :label="header.text"></v-select>
-
-							<!-- Text Field -->
-							<v-text-field v-if="header.textField" hide-details v-model="newItem[header.value]" :label="header.text"></v-text-field>
-
-							<!-- Textarea -->
-							<v-textarea v-if="header.textArea" hide-details v-model="newItem[header.value]" :label="header.text"></v-textarea>
+							<!-- Disply Only -->
+							<h4 v-if="header.displayOnly">{{ header.text }}</h4>
+							<p v-if="header.displayOnly">{{ itemData[header.value] }}</p>
 
 						</v-flex>
 					</v-layout>

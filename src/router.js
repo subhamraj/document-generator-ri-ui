@@ -19,7 +19,7 @@ export default new Router({
 			component: () => import('./views/Dashboard.vue'),
 			children: [
 				{
-					path: '',
+					path: '/',
 					component: () => import('./components/sections/Landing.vue'),
 				},
 				{
@@ -33,6 +33,24 @@ export default new Router({
 				{
 					path: 'connectivityDetails',
 					component: () => import('./components/sections/connectivityDetails/ConnectivityDetails.vue'),
+				},
+				{
+					path: 'sampleMessages',
+					component: () => import('./components/sections/sampleMessages/SampleMessages.vue'),
+				},
+				{
+					path: 'issueList',
+					component: () => import('./components/sections/issueList/IssueList.vue'),
+				},
+				{
+					path: 'mappings',
+					component: () => import('./components/sections/mappings/Mappings.vue'),
+					children: [
+						{
+							path: 'adt',
+							component: () => import('./components/sections/mappings/adt/Adt.vue'),
+						},
+					]
 				}
 			]
 		}
