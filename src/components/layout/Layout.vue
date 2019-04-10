@@ -106,6 +106,11 @@
 								icon: 'check_circle_outline',
 								route: '/dashboard/testPlan'
 							},
+							{
+								name: 'Translation Tables',
+								icon: 'table_chart',
+								route: '/dashboard/translationTables'
+							},
 						]
 					},
 					{

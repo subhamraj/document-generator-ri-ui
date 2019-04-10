@@ -81,6 +81,36 @@ export default new Router({
 							component: () => import('./components/sections/unitTestPlan/validation/Validation.vue'),
 						},
 					]
+				},
+				{
+					path: 'translationTables',
+					component: () => import('./components/sections/translationTables/TranslationTables.vue'),
+					children: [
+						{
+							path: 'race',
+							component: () => import('./components/sections/translationTables/race/Race.vue'),
+						},
+						{
+							path: 'patientClass',
+							component: () => import('./components/sections/translationTables/patientClass/PatientClass.vue'),
+						},
+						{
+							path: 'orderControlCode',
+							component: () => import('./components/sections/translationTables/orderControlCode/OrderControlCode.vue'),
+						},
+						{
+							path: 'orderStatus',
+							component: () => import('./components/sections/translationTables/orderStatus/OrderStatus.vue'),
+						},
+						{
+							path: 'orderControlStatus',
+							component: () => import('./components/sections/translationTables/orderControlStatus/OrderControlStatus.vue'),
+						},
+						{
+							path: 'examModalityType',
+							component: () => import('./components/sections/translationTables/examModalityType/ExamModalityType.vue'),
+						},
+					]
 				}
 			]
 		}
